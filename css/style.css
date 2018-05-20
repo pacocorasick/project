@@ -8588,6 +8588,30 @@ textarea {
   display:none;
 }
 
+.menu-container{
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  max-height: 105px;
+}
+
+.main-menu-ul{
+  text-align: center;
+  width: 100%;
+}
+
+.main-menu-ul li {
+  float: none;
+}
+
+.logo-container{
+  text-align: center;
+  padding-right: 0px;
+}
+
+.past-courses-title{
+  margin-top: 1%;
+}
 /* .first-gallery-image {
   display: block;
 } */
