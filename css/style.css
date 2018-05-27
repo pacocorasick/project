@@ -8581,22 +8581,22 @@ textarea {
   width: 290px;
 }
 
-.separator{
+.separator {
   margin: 3% 0% 3% 0%;
 }
 
-#contact-submit-button{
-  display:none;
+#contact-submit-button {
+  display: none;
 }
 
-.menu-container{
+.menu-container {
   width: 100%;
   display: inline-block;
   overflow: hidden;
   max-height: 105px;
 }
 
-.main-menu-ul{
+.main-menu-ul {
   text-align: right;
   width: 100%;
   padding-right: 3%;
@@ -8606,14 +8606,38 @@ textarea {
   float: none;
 }
 
-.logo-container{
+.logo-container {
   text-align: center;
   padding-right: 0px;
 }
 
-.past-courses-title{
+.past-courses-title {
   margin-top: 1%;
 }
+
+.past-courses-table thead {
+  background-color: #20B4E9;
+  color: white;
+}
+
+.past-courses-table th {
+  text-align: center;
+  padding: 20px;
+}
+
+.past-courses-table td {
+  text-align: center;
+  padding: 15px;
+}
+
+.past-courses-table tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.past-courses-table tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
 /* .first-gallery-image {
   display: block;
 } */
