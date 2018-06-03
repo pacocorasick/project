@@ -8638,6 +8638,54 @@ textarea {
   background-color: #ffffff;
 }
 
+.event-image {
+  margin-top: 0.5%;
+}
+
+.event-header {
+  margin-bottom: 2%;
+}
+
+.event-bar-row {
+  margin-top: 2%;
+}
+
+.date-box {
+  padding-right: 1.5%;
+  padding-left: 1.5%;
+  text-align: center;
+  margin-top: 0.5%;
+}
+
+.date-box>div:hover {
+  background-color: #20B4E9;
+  color: white;
+}
+
+.date-box>div {
+  border: 1px solid #dbdbdb;
+  color: #5e5e5e;
+  padding: 5%;
+  background-color: #F9F9F9
+}
+
+.event-bar-header {
+  font-size: 1.5em
+}
+
+.event-bar-lecturer {
+  font-size: 1.2em;
+}
+
+.event-body-content {
+  margin-bottom: 2%;
+  background-color: #EEEEEE;
+  padding: 1%;
+  -webkit-box-shadow: 0px 0px 46px 0px rgba(181, 181, 181, 0.7);
+  -moz-box-shadow: 0px 0px 46px 0px rgba(181, 181, 181, 0.7);
+  box-shadow: 0px 0px 46px 0px rgba(181, 181, 181, 0.7);
+}
+
 /* .first-gallery-image {
   display: block;
 } */
