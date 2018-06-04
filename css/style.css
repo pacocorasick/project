@@ -8706,13 +8706,10 @@ textarea {
 
 .slider-header {
   transition: none;
-  line-height: 62px;
-  border-width: 0px;
-  margin: 14px 0px 9px;
   padding: 0px;
   letter-spacing: 0px;
   font-weight: 300;
-  font-size: 50px;
+  font-size: 43px;
 }
 
 .slider-header>span{
