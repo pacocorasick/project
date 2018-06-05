@@ -8746,7 +8746,7 @@ textarea {
   margin-right: 10px;
   z-index: 10;
   position: relative;
-  border: 2px solid #00B093;
+  border: 2px solid #1DB4EC;
 }
 
 .vertical-line{
@@ -8756,7 +8756,7 @@ textarea {
   margin: -8px 0px -15px 16px;
   width: 2px;
 	height: 40px;
-  background: #00B093;
+  background: #1DB4EC;
 }
 
 .vertical-line-text{
