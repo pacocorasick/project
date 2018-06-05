@@ -39,42 +39,60 @@
 </header>
 
 <section class="theme_menu stricky">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
+    <div class="container menu-container">
+        <div class="row col-md-8 col-md-offset-2">
+            <div class="logo-container col-md-3">
                 <div class="main-logo">
-                    <a href="index.html"><img src="images/logo/logo.png" alt=""></a>
+                    <a href="index.html">
+                        <img src="images/logo/logo.png" alt="">
+                    </a>
                 </div>
             </div>
-            <div class="col-md-8 menu-column">
+            <div class="col-md-9 menu-column">
                 <nav class="menuzord" id="main_menu">
-                   <ul class="menuzord-menu">
-                        <li><a href="index.html">Начало</a></li>
-
-                        <li><a href="kursove.html">Курсове</a>
+                    <ul class="menuzord-menu main-menu-ul">
+                        <li>
+                            <a href="index.html">Начало</a>
                         </li>
 
-                        <li><a href="za-nas.html">За нас</a> 
+                        <li>
+                            <a href="kursove.html">Курсове</a>
                         </li>
 
-                        <li><a href="lektori.html">Лектори</a>
+                        <li>
+                            <a href="minali-kursove.html">Минали курсове</a>
                         </li>
 
-                        <li><a href="za-prepodavateli.html">За преподаватели</a>
+                        <li>
+                            <a href="za-nas.html">За нас</a>
+                        </li>
+
+                        <li>
+                            <a href="lektori.html">Лектори</a>
+                        </li>
+
+                        <li>
+                            <a href="za-prepodavateli.html">За преподаватели</a>
                         </li>
 
 
-                        <li><a href="za-firmi.html">За фирми</a>
+                        <li>
+                            <a href="za-firmi.html">За фирми</a>
                         </li>
-                      
-                        <li><a href="kontakti.html">Контакти</a></li>
-                    </ul><!-- End of .menuzord-menu -->
-                </nav> <!-- End of #main_menu -->
+
+                        <li>
+                            <a href="kontakti.html">Контакти</a>
+                        </li>
+                    </ul>
+                    <!-- End of .menuzord-menu -->
+                </nav>
+                <!-- End of #main_menu -->
             </div>
         </div>
-                
 
-   </div> <!-- End of .conatiner -->
+
+    </div>
+    <!-- End of .conatiner -->
 </section>
   
 <section class="rev_headsld">
@@ -254,33 +272,56 @@ QA е динамично развиваща се (в последните 10-15 
  					<!--Tab-->
                     <div class="tab" id="tab-two" style="display: none;">
                         <div class="text-content">
-<div class="text" style="white-space: pre; font-family: Century Gothic, sans-serif; line-height: 26px"><b>Програма на курса</b>
-<hr/> 
-      1.  Въведение
-            а) Професията QA, кариерно развитие, качества, ИТ пазара в България, представяне 
-               на курса и школата Skillo.
-            б) Защо тестваме?
-      2.  Системи за контрол на версии (Source control systems)
-      3.  Тестове и тест сетове
-      4.  Тестови техники. Упражнения.
-      5.  Писане на тестове в GIT срещу уеб базирано приложение
-      6.  Типове тестване
-      7.  Бъгове и  проверовъчен тест върху лекциите от 1-6
-      8.  Изпълнение на тестове от лекция 5 и писане на бъгове в GIT.
-      9.  Системи за управление на проекти (Project Management Systems),</br>           Системи за управление на тестове (Test Management systems). Видеа и демонстрация. </br>           Прехвърляне на тестове и бъгове от GIT и свързване към изисквания
-    10.  SDLC и STLC
-    11.  Работа в Agile, работа в екип, упражнения, роли.Проверовъчен тест върху лекциите от 
-            7 до 10
-    12. Тестване на нови функционалности и регресионно тестване (Retesting and regression 
-           testing). Упражнения.
-    13. Въведение в SQL
-    14. Основи на мрежите - TCP/IP модел и протоколи - HTTP, HTTPS, FTP и др.
-    15. HTML, CSS, XML, DOM
-    16. Web Services - GET, POST, PUT, DELETE, SOAP, REST, PostMan 
-    17. Мобилно тестване. Проверовъчен тест върху лекции 11-16  
-    18. Автобиография (CV), симулирани интервюта, как да намерим работа
-    19. Преговор. Симулирани интервюта
-    20. Финален тест и раздаване на сертификати
+<div class="program-container"><div class="program-header"><strong>Програма на курса</strong></div>
+    <div class="program-inner-container">
+        <div class="graph-element"><span class="circle">1</span><span>Въведение</span></div>
+        <div class="vertical-line"></div> <span class="vertical-line-text">а) Професията QA, кариерно развитие, качества, ИТ пазара в България,</span>
+        <div class="vertical-line"></div> <span class="vertical-line-text">представянена курса и школата Skillo.</span>
+        <div class="vertical-line"></div> <span class="vertical-line-text">б) Защо тестваме?</span>     
+        <div class="vertical-line"></div> 
+        <div class="graph-element"><span class="circle">2</span><span>Системи за контрол на версии (Source control systems).</span></div>
+        <div class="vertical-line"></div>
+        <div class="graph-element"><span class="circle">3</span><span>Тестове и тест сетове.</span></div>
+        <div class="vertical-line"></div>
+        <div class="graph-element"><span class="circle">4</span><span>Тестови техники. Упражнения.</span></div>
+        <div class="vertical-line"></div>
+        <div class="graph-element"><span class="circle">5</span><span>Писане на тестове в GIT срещу уеб базирано приложение.</span></div>
+        <div class="vertical-line"></div>
+        <div class="graph-element"><span class="circle">6</span><span>Типове тестване.</span></div>
+        <div class="vertical-line"></div>
+        <div class="graph-element"><span class="circle">7</span><span>Бъгове и  проверовъчен тест върху лекциите от 1-6.</span></div>
+        <div class="vertical-line"></div>
+        <div class="graph-element"><span class="circle">8</span><span>Изпълнение на тестове от лекция 5 и писане на бъгове в GIT.</span></div>
+        <div class="vertical-line"></div>
+        <div class="graph-element"><span class="circle">9</span><span>Системи за управление на проекти (Project Management Systems)</span></div>
+        <div class="vertical-line"></div> <span class="vertical-line-text">Системи за управление на тестове (Test Management systems). Видеа и демонстрация.</span>
+        <div class="vertical-line"></div> <span class="vertical-line-text">Прехвърляне на тестове и бъгове от GIT и свързване към изисквания.</span>
+        <div class="vertical-line"></div>
+        <div class="graph-element"><span class="circle">10</span><span>SDLC и STLC</span></div>
+        <div class="vertical-line"></div>
+        <div class="graph-element"><span class="circle">11</span><span>Работа в Agile, работа в екип, упражнения, роли.</span></div>
+        <div class="vertical-line"></div> <span class="vertical-line-text">Проверовъчен тест върху лекциите от 7 до 10.</span>
+        <div class="vertical-line"></div>
+        <div class="graph-element"><span class="circle">12</span><span>Тестване на нови функционалности (Retesting)</span></div>
+        <div class="vertical-line"></div> <span class="vertical-line-text">Регресионно тестване (Regression testing)</span>
+        <div class="vertical-line"></div> <span class="vertical-line-text">Упражнения.</span>
+        <div class="vertical-line"></div>
+        <div class="graph-element"><span class="circle">13</span><span>Въведение в SQL.</span></div>
+        <div class="vertical-line"></div>
+        <div class="graph-element"><span class="circle">14</span><span>Основи на мрежите - TCP/IP модел и протоколи - HTTP, HTTPS, FTP и др.</span></div>
+        <div class="vertical-line"></div>
+        <div class="graph-element"><span class="circle">15</span><span>HTML, CSS, XML, DOM.</span></div>
+        <div class="vertical-line"></div>
+        <div class="graph-element"><span class="circle">16</span><span>Web Services - GET, POST, PUT, DELETE, SOAP, REST, PostMan.</span></div>
+        <div class="vertical-line"></div>
+        <div class="graph-element"><span class="circle">17</span><span>Мобилно тестване. Проверовъчен тест върху лекции 11-16.</span></div>
+        <div class="vertical-line"></div>
+        <div class="graph-element"><span class="circle">18</span><span>Автобиография (CV), симулирани интервюта, как да намерим работа.</span></div>
+        <div class="vertical-line"></div>
+        <div class="graph-element"><span class="circle">19</span><span>Преговор. Симулирани интервюта.</span></div>
+        <div class="vertical-line"></div>
+        <div class="graph-element"><span class="circle">20</span><span>Финален тест и раздаване на сертификати.</span></div>
+    </div>
                             </div>
                         </div>
                     </div>
