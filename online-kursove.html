@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Контакти - SKILLO || Учете се от най-добрите</title>
+    <title>Курсове - SKILLO || Учете се от най-добрите</title>
 
     <!-- mobile responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,17 +18,26 @@
     <link rel="icon" type="image/png" href="images/fav-icon/favicon-16x16.png" sizes="16x16">
 
     <meta http-equiv="Cache-Control" content="max-age=3600" />
-    <script src="js/jquery.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118017264-1"></script>
     <script>
-        if (window.location.search.indexOf('message=success') > -1) {
-            alert('Съобщението е изпратено успешно');
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
         }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-118017264-1');
     </script>
+
 </head>
 
 <body>
 
     <div class="boxed_wrapper">
+
         <header class="top-bar">
             <div class="container">
             </div>
@@ -94,129 +103,84 @@
         <section class="rev_headsld">
             <h1>Център за обучение по софтуерно тестване</h1>
         </section>
-        <div class="event-wrapper">
-            <section class="event-header col-md-8 col-md-offset-2">
-                <div class="event-image">
-                    <img src="images/event/event.jpg" alt="">
+        <section class="blog-section">
+            <div class="container">
+                <div class="section-title left">
+                    <h3 class="col-md-offset-2">ОНЛАЙН КУРСОВЕ</h3>
                 </div>
-                <div class="event-bar-row clearfix">
-                    <div class="date-box col-md-1">
-                        <div>
-                            <strong>16 ЮЛИ</strong>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12 col-md-offset-2">
+                        <div class="default-blog-news wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                            <figure class="img-holder" style="position: relative; height: 242px">
+                                <a href="online-qa.html" style="position: relative; top: -220px ">
+                                    <img src="images/courseicon/qa1.png" alt="QA" style="position: relative; z-index: -2; top: 230px; left: 80px; width:220px; float: left; display: inline; margin-right: 20px">
+                                    <img src="images/blog/online.png" style="position: relative; z-index: -1; top: 417px; left: 0px; right: 0px;  display: inline; position: absolute;">
+                                    <img src="images/blog/our-students.png" alt="QA" style="position: relative; z-index: -3; display: inline;">
+                                </a>
+                                <figcaption class="overlay">
+                                    <div class="box">
+                                        <div class="content">
+                                            <a href="online-qa.html" style="height: 200px; padding-top: 80px">Quality Assurance</a>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            <div class="star-right">
+                                <img src="images/blog/globe.png" class="float_right" alt="" />
+                            </div>
+                            <div class="lower-content">
+                                <h4>
+                                    <span>Лектор: </span>
+                                    <a href="online-qa.html">Хюсеин Тюркмен</a>
+                                </h4>
+                                <div class="blog-ndt">
+                                    <div class="post-nm">Софтуерно Тестване</div>
+                                    <div class="date-pro">
+                                        <p>Начало: 10.05.2018</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="event-bar-text col-md-11">
-                        <div class="event-bar-header">
-                            <strong>Стартирай своята ИТ кариера като QA</strong>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="default-blog-news wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp; position: relative;">
+
+                            <figure class="img-holder" style="position: relative; height: 242px">
+                                <a href="online-java-qa.html" style="position: relative; top: -220px ">
+                                    <img src="images/courseicon/java1.png" alt="Java Programming" style="position: relative; z-index: -2; top: 230px; left: 70px; width:220px; float: left; display: inline; margin-right: 20px">
+                                    <img src="images/blog/online.png" style="position: relative; z-index: -1; top: 417px; left: 0px; right: 0px;  display: inline; position: absolute;">
+                                    <img src="images/blog/programming-java.png" alt="Java Programming" style="position: relative; z-index: -3; display: inline;">
+                                </a>
+                                <figcaption class="overlay">
+                                    <div class="box">
+                                        <div class="content">
+                                            <a href="online-java-qa.html" style="height: 200px; padding-top: 80px">Въведение в Java за QA</a>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            <div class="star-right">
+                                <img src="images/blog/globe.png" class="float_right" alt="" />
+                            </div>
+                            <div class="lower-content">
+                                <h4>
+                                    <span>Лектор: </span>
+                                    <a href="online-java-qa.html">Петър Милев</a>
+                                </h4>
+                                <div class="blog-ndt">
+                                    <div class="post-nm">Програмиране с Java</div>
+                                    <div class="date-pro">
+                                        <p>Начало: 31.05.2018</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="event-bar-lecturer">Хюсеин Тюркмен</div>
                     </div>
+
                 </div>
-            </section>
-
-            <section class="event-body col-md-12">
-                <div class="event-body-content col-md-8 col-md-offset-2">
-                    <strong>За кого е предназначен семинара:</strong>
-                    <br> Всички, които искат да започнат своята ИТ кариера като специалист по софтуерно тестване (QA)
-                    <br> Всички, които искат да научат любопитни факти за ИТ индустрията
-                    <div>
-                        <br>
-                        <strong>Искате да започнете своята ИТ кариера?</strong>
-                        <br> Колебаете се откъде да започнете, искате да получите информация, съвети и предложения от опитни
-                        специалисти в ИТ сферата?
-                        <br> Запишете се на семинара
-                        <a href="./kurs-qa.html">"Стартирай своята ИТ кариера като QA"</a>, за да получите отговори, конкретни предложения и насоки
-                        за Вашата бъдеща ИТ кариера като специалист по софтуерно тестване
-                        <br>
-                        <br>
-                    </div>
-                    <div>
-                        <strong>Лектор: </strong>
-                        <br> Хюсеин Тюркмен - Съосновател на център за обучение по софтуерно тестване Skillo. Работи над 10 години
-                        в ИТ индустрията и по-точно в областта на софтуерното тестване, заемал е ръководни позиции в известни
-                        ИТ фирми. Кариерата му като лектор започва преди 4 години.
-                    </div>
-                    <br>
-                    <strong>Лекторът ще Ви разкаже за:</strong>
-                    <br>
-                    <ul>
-                        <li>1. ИТ индустрията в България</li>
-                        <li>2. "Бoрбата" за кадри и заплатите в сектора</li>
-                        <li>3. Какви са различните ИТ специалности</li>
-                        <li>4. Как да направите плавния преход към ИТ сферата.</li>
-                        <li>5. Защо старта като <a href="./kurs-qa.html">QA</a> е реалния път към ИТ индустрията?</li>
-                        <li>6. Какво означава професията QA?</li>
-                        <li>7. Как Skillo ще Ви помогне?</li>
-                        <li>8. Какви обучения предлагаме?</li>
-                        <li>9. Защо го правим?</li>
-                        <br>
-                    </ul>
-                    <div>
-                        <strong>Събитието е БЕЗПЛАТНО! Използвайте регистрационната форма, за да запазите мястото си на семинара.
-                            Местата са ограничени!</strong>
-                    </div>
-                </div>
-            </section>
-
-            <!-- form -->
-            <section class="contact_us">
-                <div class="container">
-                    <div class="row">
-                        <form class="contact-form" action="php/mail_handler.php" method="post">
-                            <div class="form-header">ЗАПИШЕТЕ СЕ ЗА СЕМИНАРА</div>
-                            <div class="col-md-4">
-                                <input placeholder="Вашето име" class="form-name" type="text" name="first_name" oninvalid="this.setCustomValidity('Моля, въведете вашето име.')"
-                                    oninput="this.setCustomValidity('')" required>
-                            </div>
-                            <div class="col-md-4">
-                                <input placeholder="Вашият email" class="form-email" type="text" name="email">
-                            </div>
-                            <div class="col-md-4">
-                                <input placeholder="Вашият телефон" class="form-phone" type="text" name="phone_number" oninvalid="this.setCustomValidity('Моля, въведете вашия телефон.')"
-                                    oninput="this.setCustomValidity('')" required>
-                            </div>
-                            <div class="col-md-12">
-                                <textarea placeholder="Вашето съобщение" class="form-message col-md-10" rows="5" name="message" cols="30"></textarea>
-                            </div>
-                            <div class="button contact-form-button-wrapper">
-                                <a class="thm-btn contact-form-button" href="javascript:{}" onclick="document.getElementById('contact-submit-button').click();">Изпрати</a>
-                                <input id="contact-submit-button" class="form-submit" type="submit" name="submit" value="Изпрати">
-                            </div>
-                        </form>
-                    </div>
-
-
-                    <!-- <div class="row" style="width: 820px">
-                    <form class="contact-form" action="php/mail_handler.php" method="post">
-                        <div class="form-header">Запишете се или ни задайте въпрос</div>
-                        <div class="col-md-4">
-                            <div class="form-label">Име</div>
-                            <input class="form-name" type="text" name="first_name">
-                        </div>
-                        <div class="col-md-4">
-                            <div class="form-label">Телефон за връзка</div>
-                            <input class="form-phone" type="text" name="phone_number">
-                        </div>
-                        <div class="col-md-4">
-                            <div class="form-label">Поща за обратна връзка</div>
-                            <input class="form-email" type="text" name="email">
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-message-label">Съобщение</div>
-                            <textarea class="form-message col-md-10" rows="5" name="message" cols="30"></textarea>
-                        </div>
-                        <div>
-                            <input class="form-submit" type="submit" name="submit" value="Изпрати">
-                        </div>
-                    </form>
-                </div> -->
-                </div>
-            </section>
-            <!-- form end -->
-        </div>
-
-        <div>&nbsp;</div>
-        <div>&nbsp;</div>
+            </div>
+        </section>
 
         <footer class="main-footer">
 
@@ -383,7 +347,6 @@
 
         </footer>
 
-
         <!-- Scroll Top Button -->
         <button class="scroll-top tran3s color2_bg">
             <span class="fa fa-angle-up"></span>
@@ -392,6 +355,8 @@
         <div class="preloader"></div>
 
 
+        <!-- jQuery js -->
+        <script src="js/jquery.js"></script>
         <!-- bootstrap js -->
         <script src="js/bootstrap.min.js"></script>
         <!-- jQuery ui js -->
@@ -422,6 +387,7 @@
         <script src="js/revolution.extension.video.min.js"></script>
 
         <!-- fancy box -->
+        <script src="js/jquery.fancybox.pack.js"></script>
         <script src="js/jquery.polyglot.language.switcher.js"></script>
         <script src="js/nouislider.js"></script>
         <script src="js/jquery.bootstrap-touchspin.js"></script>

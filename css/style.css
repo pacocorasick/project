@@ -8782,6 +8782,18 @@ textarea {
   margin-bottom: 5%;
 }
 
+#online-tab{
+  float: right;
+  cursor: default;
+  pointer-events: none;
+}
+
+.online-course-steps{
+  list-style-type: circle;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
 /* .first-gallery-image {
   display: block;
 } */
