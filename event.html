@@ -24,6 +24,18 @@
             alert('Съобщението е изпратено успешно');
         }
     </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118017264-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-118017264-1');
+    </script>
+    <link rel="stylesheet" type="text/css" href="js/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css" />
+    <script type="text/javascript" src="js/slick/slick.min.js"></script>
 </head>
 
 <body>
@@ -97,7 +109,8 @@
         <div class="event-wrapper">
             <section class="event-header col-md-8 col-md-offset-2">
                 <div class="event-image">
-                    <img src="images/event/event.jpg" alt="">
+                    <div><img src="images/event/event.jpg" alt=""></div>
+                    <div><img src="images/event/event2.jpg" alt=""></div>
                 </div>
                 <div class="event-bar-row clearfix">
                     <div class="date-box col-md-1">
@@ -325,12 +338,12 @@
                                                 <li>
                                                     <a href="kurs-java-qa.html">
 
-                                                        Нова група по Java за QA на 31 август</a>
+                                                        Нова група по Java за QA на 27 септември</a>
                                                 </li>
                                                 <li>
                                                     <a href="kurs-automation-qa.html">
 
-                                                        Автоматизирано Тестване от 29 август</a>
+                                                        Автоматизирано Тестване от 17 септември</a>
                                                 </li>
 
                                                 </li>
@@ -438,6 +451,18 @@
         <script src="js/imagezoom.js"></script>
         <script id="map-script" src="js/default-map.js"></script>
         <script src="js/custom.js"></script>
+
+        <script>
+            $('.event-image').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 5000,
+                infinite: true,
+                pauseOnHover: false,
+                dots: true
+            });
+        </script>
 
     </div>
 
