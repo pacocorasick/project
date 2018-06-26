@@ -178,61 +178,38 @@
                 </div>
             </section>
 
-            <!-- form -->
-            <section class="contact_us">
-                <div class="container">
-                    <div class="row">
-                        <form class="contact-form" action="php/mail_handler.php" method="post">
-                            <div class="form-header">ЗАПИШЕТЕ СЕ ЗА СЕМИНАРА</div>
-                            <div class="col-md-4">
-                                <input placeholder="Вашето име" class="form-name" type="text" name="first_name" oninvalid="this.setCustomValidity('Моля, въведете вашето име.')"
-                                    oninput="this.setCustomValidity('')" required>
-                            </div>
-                            <div class="col-md-4">
-                                <input placeholder="Вашият email" class="form-email" type="text" name="email">
-                            </div>
-                            <div class="col-md-4">
-                                <input placeholder="Вашият телефон" class="form-phone" type="text" name="phone_number" oninvalid="this.setCustomValidity('Моля, въведете вашия телефон.')"
-                                    oninput="this.setCustomValidity('')" required>
-                            </div>
-                            <div class="col-md-12">
-                                <textarea placeholder="Вашето съобщение" class="form-message col-md-10" rows="5" name="message" cols="30"></textarea>
-                            </div>
-                            <div class="button contact-form-button-wrapper">
-                                <a class="thm-btn contact-form-button" href="javascript:{}" onclick="document.getElementById('contact-submit-button').click();">Изпрати</a>
-                                <input id="contact-submit-button" class="form-submit" type="submit" name="submit" value="Изпрати">
-                            </div>
-                        </form>
-                    </div>
-
-
-                    <!-- <div class="row" style="width: 820px">
+        <!-- form -->
+        <section class="contact_us">
+            <div class="container">
+                <div class="row">
                     <form class="contact-form" action="php/mail_handler.php" method="post">
-                        <div class="form-header">Запишете се или ни задайте въпрос</div>
+                        <div class="form-header">ИЗПРАТЕТЕ НИ СЪОБЩЕНИЕ</div>
                         <div class="col-md-4">
-                            <div class="form-label">Име</div>
-                            <input class="form-name" type="text" name="first_name">
+                            <input placeholder="Вашето име" class="form-name" type="text" name="first_name" oninvalid="this.setCustomValidity('Моля, въведете вашето име.')"
+                                oninput="this.setCustomValidity('')" required>
                         </div>
                         <div class="col-md-4">
-                            <div class="form-label">Телефон за връзка</div>
-                            <input class="form-phone" type="text" name="phone_number">
+                            <input placeholder="Вашият email" class="form-email" type="text" name="email">
                         </div>
                         <div class="col-md-4">
-                            <div class="form-label">Поща за обратна връзка</div>
-                            <input class="form-email" type="text" name="email">
+                            <input placeholder="Вашият телефон" class="form-phone" type="text" name="phone_number" oninvalid="this.setCustomValidity('Моля, въведете вашия телефон.')"
+                                oninput="this.setCustomValidity('')" required>
                         </div>
                         <div class="col-md-12">
-                            <div class="form-message-label">Съобщение</div>
-                            <textarea class="form-message col-md-10" rows="5" name="message" cols="30"></textarea>
+                            <textarea placeholder="Вашето съобщение" class="form-message col-md-10" rows="5" name="message" cols="30"></textarea>
                         </div>
-                        <div>
-                            <input class="form-submit" type="submit" name="submit" value="Изпрати">
+                        <div class="page-info col-md-12">
+                            <input class="form-page" type="text" name="page" value="event">
+                        </div>
+                        <div class="button contact-form-button-wrapper">
+                            <a class="thm-btn contact-form-button" href="javascript:{}" onclick="document.getElementById('contact-submit-button').click();">Изпрати</a>
+                            <input id="contact-submit-button" class="form-submit" type="submit" name="submit" value="Изпрати">
                         </div>
                     </form>
-                </div> -->
                 </div>
-            </section>
-            <!-- form end -->
+            </div>
+        </section>
+        <!-- form end -->
         </div>
 
         <div>&nbsp;</div>
