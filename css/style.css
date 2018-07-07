@@ -1788,9 +1788,9 @@ textarea {
 }
 
 .sk-ablec a {
-  width: 26px !important;
-  height: 26px !important;
-  line-height: 26px !important;
+  width: 32px !important;
+  height: 32px !important;
+  line-height: 28px !important;
 }
 
 .popular-post .sk-corr h5 {
@@ -8552,6 +8552,14 @@ textarea {
   line-height: 2;
 }
 
+.contact-form {
+  margin-top: 5%;
+}
+
+.no-margin {
+  margin: 0;
+}
+
 .contact-form input[type="text"] {
   padding: 3%;
   width: 100%;
@@ -8689,12 +8697,15 @@ textarea {
   position: absolute;
   top: 20%;
   left: 7%;
-
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s; /* Firefox < 16 */
-   -ms-animation: fadein 2s; /* Internet Explorer */
-    -o-animation: fadein 2s; /* Opera < 12.1 */
-       animation: fadein 2s;
+  -webkit-animation: fadein 2s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 2s;
+  /* Internet Explorer */
+  -o-animation: fadein 2s;
+  /* Opera < 12.1 */
+  animation: fadein 2s;
 }
 
 .slider-wrapper {
@@ -8712,29 +8723,29 @@ textarea {
   font-size: 43px;
 }
 
-.slider-header>span{
+.slider-header>span {
   color: rgb(29, 180, 236);
 }
 
-.slider-text-wrapper{
+.slider-text-wrapper {
   transform: matrix(1, 0, 0, 1, 0, 0);
   height: auto;
   width: auto;
   text-transform: uppercase;
-  color:#FFFFFF;
+  color: #FFFFFF;
 }
 
-.slider-paragraph{
-  color:#FFFFFF;
+.slider-paragraph {
+  color: #FFFFFF;
   text-transform: none;
   margin-bottom: 4%;
 }
 
-.graph-element{
+.graph-element {
   display: inline-block;
 }
 
-.circle{
+.circle {
   font-weight: bold;
   height: 35px;
   width: 35px;
@@ -8749,77 +8760,95 @@ textarea {
   border: 2px solid #1DB4EC;
 }
 
-.vertical-line{
+.vertical-line {
   z-index: 9;
   position: relative;
   display: inline-block;
   margin: -8px 0px -15px 16px;
   width: 2px;
-	height: 40px;
+  height: 40px;
   background: #1DB4EC;
 }
 
-.vertical-line-text{
+.vertical-line-text {
   margin-left: 2.8%;
 }
 
-.program-header{
+.program-header {
   font-size: 1.3em;
 }
-.program-container{
+
+.program-container {
   white-space: pre-line;
   font-family: Century Gothic, sans-serif;
   line-height: 26px;
   font-size: 17px;
 }
 
-.program-inner-container{
+.program-inner-container {
   margin-top: -3%;
   margin-bottom: -3%;
 }
 
-.sidebar-page-container{
+.sidebar-page-container {
   margin-bottom: 5%;
 }
 
-#online-tab{
+#online-tab {
   float: right;
   cursor: default;
   pointer-events: none;
 }
 
-.online-course-steps{
+.online-course-steps {
   list-style-type: circle;
   margin-top: 3%;
   margin-left: 3%;
 }
 
-.page-info{
+.online-course-steps ul {
+  margin-left: 2%;
+}
+
+.page-info {
   display: none;
 }
 
-.online-courses-schema{
+.online-courses-schema {
   width: 40%;
   position: absolute;
   right: 0;
 }
 
-.online-course-description{
+.online-course-description {
   margin-top: 2%;
   background-color: white;
 }
 
+.online-course-decription-header {
+  font-size: 24px;
+}
+
+.online-bottom {
+  position: absolute;
+  right: 14px;
+  bottom: 4px;
+  color: #1DB4EC;
+  font-size: 40px;
+  font-weight: 500;
+}
+
 @media only screen and (max-width: 1600px) {
-  .header-row{
+  .header-row {
     width: 80%;
-    margin-left:10%;
+    margin-left: 10%;
   }
 }
 
 @media only screen and (max-width: 1345px) {
-  .header-row{
+  .header-row {
     width: 90%;
-    margin-left:5%;
+    margin-left: 5%;
   }
 }
 
