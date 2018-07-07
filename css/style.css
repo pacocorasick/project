@@ -8801,9 +8801,12 @@ textarea {
 }
 
 .online-course-steps {
+  font-size: 19px;
+  color: #7e7e7e;
   list-style-type: circle;
   margin-top: 3%;
   margin-left: 3%;
+  line-height: 35px;
 }
 
 .online-course-steps ul {
@@ -8813,11 +8816,15 @@ textarea {
 .page-info {
   display: none;
 }
-
+/* 
 .online-courses-schema {
-  width: 40%;
+  width: 52%;
   position: absolute;
   right: 0;
+} */
+
+.online-courses-schema{
+  margin-left: 12%;
 }
 
 .online-course-description {
