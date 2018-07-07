@@ -8838,6 +8838,40 @@ textarea {
   font-weight: 500;
 }
 
+.feature-description {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: white;
+  border-radius: 150px;
+  padding: 3% 3% 3% 3%;
+  -webkit-box-shadow: 0px 0px 18px 6px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: 0px 0px 18px 6px rgba(0, 0, 0, 0.37);
+  box-shadow: 0px 0px 18px 6px rgba(0, 0, 0, 0.37);
+}
+
+.feature-image-inner{
+  width: 100%;
+}
+
+.feature-header {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1DB4EC;
+  margin-bottom: 2%;
+}
+
+.feature-image{
+  padding: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.feature-text{
+  padding-left: 5%;
+}
+
 @media only screen and (max-width: 1600px) {
   .header-row {
     width: 80%;
