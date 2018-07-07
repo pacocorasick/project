@@ -8806,11 +8806,19 @@ textarea {
   list-style-type: circle;
   margin-top: 3%;
   margin-left: 3%;
-  line-height: 35px;
+  line-height: 27px;
 }
 
 .online-course-steps ul {
   margin-left: 2%;
+}
+
+.online-course-steps li {
+  margin-bottom: 4%;
+}
+
+.online-course-steps ul li {
+  margin-bottom: 0%;
 }
 
 .page-info {
