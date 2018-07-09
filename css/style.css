@@ -8526,6 +8526,7 @@ textarea {
   margin: 0% 2% 3% 2%;
   font-weight: bold;
   font-size: 1.2em;
+  text-transform: uppercase;
 }
 
 .form-label {
@@ -8892,6 +8893,10 @@ textarea {
   padding-left: 5%;
 }
 
+.contact-form-wrapper{
+  margin-bottom: 3%;
+}
+
 @media only screen and (max-width: 1600px) {
   .header-row {
     width: 80%;
@@ -8903,6 +8908,31 @@ textarea {
   .header-row {
     width: 90%;
     margin-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .form-header {
+    text-align: center;
+  }
+  .contact-form input[type="text"] {
+    padding: 2%;
+    margin-bottom: 2%;
+  }
+  .menu-column{
+    display: none;
+  }
+  .theme_menu{
+    height: 100%;
+  }
+  .widgets-section{
+    display: none;
+  }
+  .pull-right{
+    display:none;
+  }
+  .rev_headsld{
+    display:none;
   }
 }
 
