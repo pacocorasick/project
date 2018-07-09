@@ -8824,6 +8824,11 @@ textarea {
 .page-info {
   display: none;
 }
+
+.available-spaces {
+  color: #1e28ea;
+}
+
 /* 
 .online-courses-schema {
   width: 52%;
@@ -8831,7 +8836,7 @@ textarea {
   right: 0;
 } */
 
-.online-courses-schema{
+.online-courses-schema {
   margin-left: 12%;
 }
 
@@ -8864,7 +8869,7 @@ textarea {
   box-shadow: 0px 0px 18px 6px rgba(0, 0, 0, 0.37);
 }
 
-.feature-image-inner{
+.feature-image-inner {
   width: 100%;
 }
 
@@ -8875,7 +8880,7 @@ textarea {
   margin-bottom: 2%;
 }
 
-.feature-image{
+.feature-image {
   padding: 3%;
   display: flex;
   justify-content: center;
@@ -8883,7 +8888,7 @@ textarea {
   height: 100%;
 }
 
-.feature-text{
+.feature-text {
   padding-left: 5%;
 }
 
