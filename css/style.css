@@ -8812,6 +8812,7 @@ textarea {
 
 .online-course-steps ul {
   margin-left: 2%;
+  list-style-type: none;
 }
 
 .online-course-steps li {
