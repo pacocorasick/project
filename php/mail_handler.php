@@ -7,7 +7,7 @@ if(isset($_POST['submit'])){
     $page = $_POST['page'];
     $subject = "Контактна форма - Skillo";
     $subject2 = "Копие от вашата контактна форма - Skillo";
-    $message = $first_name . " телефон: " . $phone_number . "от страница:" . $page . " написа:" . "\n\n" . $_POST['message'];
+    $message = $first_name . " телефон: " . $phone_number . " от страница:" . $page . " написа:" . "\n\n" . $_POST['message'];
     $message2 = "Копие от съобщението ви " . $first_name . "\n\n" . $_POST['message'];
 
     $headers = "From:" . $from;
