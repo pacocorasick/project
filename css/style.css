@@ -8696,7 +8696,7 @@ textarea {
 
 .slider-text-wrapper {
   position: absolute;
-  top: 20%;
+  top: 25%;
   left: 7%;
   -webkit-animation: fadein 2s;
   /* Safari, Chrome and Opera > 12.1 */
