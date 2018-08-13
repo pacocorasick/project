@@ -8902,6 +8902,49 @@ textarea {
   font-size: 12px;
 }
 
+.student-heading{
+  font-size: 30px;
+}
+
+.student-heading-description{
+  font-size: 20px;
+  margin-bottom: 3%;
+  border-bottom: 2px solid #eee;
+}
+.students{
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+.student-image img{
+  border-radius: 100px;
+}
+
+.student-image > img {
+}
+
+.student-info{
+  text-align: center;
+}
+
+.student-name{
+  font-size: 30px;
+  color: #7E7E7E;
+  margin-top: 20%;
+  line-height: 30px;
+}
+
+.student-description{
+  font-size: 20px;
+  color: #77CAF2;
+}
+
+.student-wrapper{
+  position: relative;
+  padding: 3% 2%;
+  background-color: #ffffff;
+}
+
 @media only screen and (max-width: 1600px) {
   .header-row {
     width: 80%;
