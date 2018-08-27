@@ -8865,7 +8865,7 @@ textarea {
   margin-bottom: 5%;
   background-color: white;
   border-radius: 150px;
-  padding: 3% 3% 3% 3%;
+  padding: 2% 3% 2% 3%;
   -webkit-box-shadow: 0px 0px 18px 6px rgba(0, 0, 0, 0.37);
   -moz-box-shadow: 0px 0px 18px 6px rgba(0, 0, 0, 0.37);
   box-shadow: 0px 0px 18px 6px rgba(0, 0, 0, 0.37);
@@ -8880,6 +8880,10 @@ textarea {
   font-weight: 700;
   color: #1DB4EC;
   margin-bottom: 2%;
+}
+
+.feature-body{
+  font-size: 15px;
 }
 
 .feature-image {
