@@ -30,11 +30,10 @@
 
     <!-- Jquery -->
     <script src="js/jquery.js"></script>
-    <!-- Slick -->
-    <link rel="stylesheet" type="text/css" href="js/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css" />
-    <script type="text/javascript" src="js/slick/slick.min.js"></script>
 
+    <!-- owlCarousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <script src="js/owl.carousel.min.js"></script>
 </head>
 <body>
 
@@ -546,8 +545,69 @@ QA е динамично развиваща се (в последните 10-15 
             </div>
         </div>
     </div>
+
+    <!-- TESTIMONIALS -->
+<section class="testimonials">
+	<div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="customers-testimonials" class="owl-carousel">
+            <!--TESTIMONIAL 1 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="./images/students/Eva Pavlova.jpg" alt="">
+                <p>Препоръчвам Skillo, защото са истински професионалисти. Курсът по софтуерно тестване беше много добре
+                    организиран, добра основа в QA. Лекторите се опитаха да бъдат максимално полезни с допълнителни
+                    материали, тестове и множество интересни лабораторни задачи, които решават реални проблеми. Хареса ми, че лекторът набляга на въпроси,
+                    които се задават по интервюта. Самият той държеше материалът да е ясен за всички и няма
+                    проблем да отдели персонално внимание, когато се налага. В края на курса проведе и примерни
+                    интервюта с всеки курсист, за да е сигурен, че всеки ще покаже най-доброто от себе си. Така всеки можа да види къде бърка и къде може още да наблегне
+                    при подготовката. Горещо ги препоръчвам, страхотни са!</p>
+              </div>
+              <div class="testimonial-name">Ева Павлова</div>
+            </div>
+            <!--END OF TESTIMONIAL 1 -->
+            <!--TESTIMONIAL 2 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="./images/students/Yoana Georgieva.jpg" alt="">
+                <p>Записах този курс, тъй като реших да се преквалифицирам, но имах само бегла идея, в какво
+                    се изразява софтуерното тестване. Активно участвайки в курса и с помощта на прекрасния
+                    преподавател Хюсеин Тюркмен и Атанас Георгиев, научих много какво е да бъдеш QA. Изключително
+                    доволна съм от курса, от начина на преподаване и от това, че лекторите обръщат специално,
+                    индивидуално внимание на всеки един от курсистите, с препоръки какво и как да подобрят
+                    в знанията си и начина на работа. Това, което също ме впечатли беше, че имаше, както
+                    теория, така и много, много упражнения, дори и ситуации от реална работна среда, а накрая
+                    затвърдихме знанията си със симулация на интервюта и препоръки. Силно препоръчвам този
+                    курс, на всеки който е заинтересован да работи в сферата на софтуерното тестване!</p>
+              </div>
+              <div class="testimonial-name">Йоана Георгиева</div>
+            </div>
+            <!--END OF TESTIMONIAL 2 -->
+            <!--TESTIMONIAL 3 -->
+            <div class="item">
+              <div class="shadow-effect">
+                <img class="img-circle" src="./images/students/Konstantin Rupchanski.jpg" alt="">
+                <p>Обучението в SKiLLO BG за мен има изключително много положителни страни. Лекциите и самото придвижване по материала е структурирано
+                    много внимателно и последователно. Обучението включва също и много приятна практика. Лекторът, както и гост-лекторите
+                    детайлно обръщат внимание на терминологията и фундаменталните неща , а също
+                    така споделят и много примери от реалната работна среда, които освен че са интересни,
+                    дават и много ясна представа за това как и какво се случва в ежедневието на един
+                    QA. Доказателство за всичко изброено е факта, че още преди края на курсa, само след
+                    първото интервю, аз започнах професионалната си кариера, като QA Engineer! Това е шанс
+                    за всеки – опитайте и вие!</p>
+              </div>
+              <div class="testimonial-name">Константин Рупчански</div>
+            </div>
+            <!--END OF TESTIMONIAL 3 -->
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- END OF TESTIMONIALS -->
     
-<section class="students">
+<!-- <section class="students">
         <div class="container">
             <div class="student-heading text-uppercase"><strong>Отзиви</strong></div>
             <div class="student-heading-description">Какво казват нашите ученици за нас</div>
@@ -660,7 +720,7 @@ QA е динамично развиваща се (в последните 10-15 
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 </div>
 
 
@@ -817,14 +877,31 @@ GPS: 42.670192, 23.350884</li>
     <div class="preloader"></div>
 
     <script>
-        $('.student-slider').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 5000,
-            infinite: true,
-            pauseOnHover: false,
-        });
+       jQuery(document).ready(function($) {
+        		"use strict";
+        		//  TESTIMONIALS CAROUSEL HOOK
+		        $('#customers-testimonials').owlCarousel({
+		            loop: true,
+		            center: true,
+		            items: 3,
+		            margin: 0,
+		            autoplay: true,
+		            dots:true,
+		            autoplayTimeout: 8500,
+		            smartSpeed: 450,
+		            responsive: {
+		              0: {
+		                items: 1
+		              },
+		              768: {
+		                items: 2
+		              },
+		              1170: {
+		                items: 3
+		              }
+		            }
+		        });
+        	});
     </script>
 
 
