@@ -2449,7 +2449,7 @@ textarea {
   height: 70%;
 }
 
-.blog-nav span a {
+.blog-nav span {
   text-transform: uppercase;
   font-size: 11px;
   font-weight: bold;
@@ -9008,6 +9008,13 @@ border:1px solid #ECECEC;
   transform-origin: 50% 50% 0;
   transition: all 250ms ease-out 0s;
   width: 20px;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -160px;
+  visibility: hidden;
 }
 
 @media only screen and (max-width: 1600px) {
