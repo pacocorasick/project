@@ -30,13 +30,10 @@
 ****************************************************************************************************************
 ||||||||||||||||||||||||||||            End TABLE OF CONTENT                ||||||||||||||||||||||||||||||||||||
 ****************************************************************************************************************/
-
 /* ==============================
    1. Imported styles
    ============================== */
-
 /**/
-
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700');
 @import url(../css/bootstrap.min.css);
@@ -60,10 +57,10 @@
 @import url(../css/menuzord.css);
 @import url(../css/magnific-popup.css);
 @import url(../css/imagehover.min.css);
+
 /* ==============================
    2. Global styles
    ============================== */
-
 body {
   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
   color: #222222;
@@ -592,7 +589,6 @@ textarea {
 /* ==============================
    2. header-style
    ============================== */
-
 .top-bar {
   position: relative;
   background: #1db4ec;
@@ -644,7 +640,6 @@ textarea {
 }
 
 /*language switcher*/
-
 #polyglotLanguageSwitcher {
   position: relative;
   display: inline-block;
@@ -693,13 +688,11 @@ textarea {
 }
 
 /*logo*/
-
 .main-logo {
   margin: 25px 0 35px;
 }
 
 /*menu*/
-
 .theme_menu .container {
   position: relative;
 }
@@ -765,7 +758,6 @@ textarea {
 }
 
 /*sticky*/
-
 .theme_menu.stricky-fixed .menuzord-menu>li>a {
   padding: 43px 0px 41px;
 }
@@ -783,7 +775,6 @@ textarea {
 }
 
 /*megamenu*/
-
 .w100 {
   width: 100%;
 }
@@ -863,7 +854,6 @@ textarea {
 }
 
 /*=================== Cart And Search Option ===============*/
-
 .theme_menu .right-column {
   position: absolute;
   right: 0;
@@ -960,14 +950,15 @@ textarea {
 }
 
 /* Mainmenu fixed style */
-
 @keyframes menu_sticky {
   0% {
     margin-top: -100px;
   }
+
   50% {
     margin-top: -90px;
   }
+
   100% {
     margin-top: 0;
   }
@@ -991,7 +982,6 @@ textarea {
     Rev Slider Wrapper style
 =============================================
 ***/
-
 .rev_slider_wrapper {
   position: relative;
   z-index: 1;
@@ -1091,7 +1081,6 @@ textarea {
 /************************** 
 * Inner Banner styles 
 ***************************/
-
 .inner-banner {
   position: relative;
   background: #f7f7f7;
@@ -1181,7 +1170,6 @@ textarea {
 ====================================================================
 
 ***/
-
 .main-footer {
   position: relative;
   background: #2a3136;
@@ -1472,7 +1460,6 @@ textarea {
 /************************** 
 * why-choose styles 
 ***************************/
-
 .why-choose {
   position: relative;
 }
@@ -1573,7 +1560,6 @@ textarea {
 /************************** 
 * default-blog styles 
 ***************************/
-
 .blog-section {}
 
 .default-blog-news {
@@ -1945,7 +1931,6 @@ textarea {
 }
 
 /*large blog*/
-
 .large-blog-news {
   position: relative;
   margin-left: 80px;
@@ -2095,7 +2080,6 @@ textarea {
 }
 
 /*side-bar-blog*/
-
 .blog-sidebar {
   position: relative;
 }
@@ -2144,7 +2128,6 @@ textarea {
 }
 
 /*post-thumb*/
-
 .popular-post {
   position: relative;
   border-bottom: 1px solid #eee;
@@ -2230,7 +2213,6 @@ textarea {
 }
 
 /*archive*/
-
 .sidebar-archive .bootstrap-select {
   background: #f7f7f7;
   color: #848484;
@@ -2263,7 +2245,6 @@ textarea {
 }
 
 /*instagram*/
-
 .sidebar-intsgram ul {
   margin-left: -5px;
   margin-right: -5px;
@@ -2320,7 +2301,6 @@ textarea {
 }
 
 /*pacebook feed*/
-
 .facebook-feed {
   position: relative;
   background: #f7f7f7;
@@ -2397,9 +2377,7 @@ textarea {
 }
 
 /*single-blog*/
-
 /*---------------- Author -------------*/
-
 .single-blog-post .author {
   background-color: #ffffff;
   position: relative;
@@ -2466,7 +2444,6 @@ textarea {
 }
 
 /*share-box*/
-
 .share-box {
   background: #ffffff;
   padding: 0px 0px 12px 0px;
@@ -2605,7 +2582,6 @@ textarea {
 }
 
 /*review-tab*/
-
 .single-blog .product-review-tab {
   margin: 0 27px;
 }
@@ -2710,7 +2686,6 @@ textarea {
 /************************** 
 * 11. Project styles 
 ***************************/
-
 .latest-project {
   background: #f7f7f7;
 }
@@ -2928,7 +2903,6 @@ textarea {
 ====================================================================
 
 ***/
-
 .testimonials-section {
   position: relative;
 }
@@ -3039,7 +3013,6 @@ textarea {
 }
 
 /*nav*/
-
 .testimonials-section .owl-carousel {
   position: inherit;
 }
@@ -3107,7 +3080,6 @@ textarea {
 ====================================================================
 
 ***/
-
 .clients-section .section-title {
   margin-bottom: 10px;
 }
@@ -3166,7 +3138,6 @@ textarea {
 ====================================================================
 
 ***/
-
 .whychoos-us {
   background: #f7f7f7;
 }
@@ -3247,7 +3218,6 @@ textarea {
 ====================================================================
 
 ***/
-
 .service {
   position: relative;
 }
@@ -3366,7 +3336,6 @@ textarea {
 /************************** 
  service-style3 styles 
 ***************************/
-
 .service-style3 {
   position: relative;
   background: #f7f7f7;
@@ -3573,9 +3542,7 @@ textarea {
 }
 
 /*service single*/
-
 /*accordion-style-2*/
-
 .accordion-style-two .accordion .acc-btn .toggle-icon {
   color: #1db4ec;
   display: block;
@@ -3621,7 +3588,6 @@ textarea {
 .accordion-style-two .accordion .acc-btn.active p {}
 
 /*over view*/
-
 .over-view {
   background: #f7f7f7;
   padding: 18px 0;
@@ -3681,7 +3647,6 @@ textarea {
 }
 
 /*growth service*/
-
 .growth-item {
   border: 3px solid #e9e9e9;
   background: #f9f9f9;
@@ -3761,9 +3726,7 @@ textarea {
 }
 
 /*tab*/
-
 /*tab*/
-
 .tabs-section {
   position: relative;
   padding: 130px 0px 100px;
@@ -3899,7 +3862,6 @@ textarea {
 ====================================================================
 
 ***/
-
 .service-catergory {
   border: 1px solid #f4f4f4;
   margin: 0;
@@ -3994,7 +3956,6 @@ textarea {
 }
 
 /*brochures*/
-
 .brochures-lists {}
 
 .brochures-lists li a {
@@ -4044,7 +4005,6 @@ textarea {
 }
 
 /*growth-service*/
-
 .growth-service .item {
   background: #f7f7f7;
   padding: 30px 0;
@@ -4064,7 +4024,6 @@ textarea {
 }
 
 /*style-2*/
-
 .growth-service.style-2 {
   background-color: #f7f7f7;
 }
@@ -4104,7 +4063,6 @@ textarea {
 }
 
 /*benifit*/
-
 .benifit li {
   position: relative;
   color: #848484;
@@ -4128,7 +4086,6 @@ textarea {
 }
 
 /*benifit-list*/
-
 .benifit-list li {
   margin: 5px 0;
   color: #848484;
@@ -4163,7 +4120,6 @@ textarea {
 ====================================================================
 
 ***/
-
 .about-faq .default-form .thm-btn {
   width: auto;
 }
@@ -4368,7 +4324,6 @@ textarea {
 ====================================================================
 
 ***/
-
 .fact-counter {
   position: relative;
   padding: 70px 0px 40px;
@@ -4449,7 +4404,6 @@ textarea {
 ====================================================================
 
 ***/
-
 .home-google-map #contact-google-map {
   margin-top: 20px;
   width: 100%;
@@ -4469,7 +4423,6 @@ textarea {
 ====================================================================
 
 ***/
-
 .default-cinfo .icon_box {
   width: 40px;
 }
@@ -4513,7 +4466,6 @@ textarea {
 }
 
 /*form*/
-
 .default-form {
   position: relative;
 }
@@ -4697,7 +4649,6 @@ textarea {
 }
 
 /*placeholder*/
-
 .default-form form input::-webkit-input-placeholder {
   color: #9e9e9e;
 }
@@ -4724,7 +4675,6 @@ textarea {
 }
 
 /*author-details*/
-
 .author-details {
   background: #f7f7f7;
   padding: 1px 20px;
@@ -4785,7 +4735,6 @@ textarea {
 ====================================================================
 
 ***/
-
 .consultations {
   position: relative;
   padding-bottom: 60px;
@@ -4947,7 +4896,6 @@ textarea {
    8. Team Member styles
 ============================== 
 ***/
-
 .our-team {
   position: relative;
 }
@@ -5136,7 +5084,6 @@ textarea {
    8. Team Member styles
 ============================== 
 ***/
-
 .testimonials {
   position: relative;
   padding-bottom: 30px;
@@ -5202,7 +5149,6 @@ textarea {
 /************************** 
 * Project styles 
 ***************************/
-
 .single-project {
   padding-bottom: 30px;
   text-align: center;
@@ -5349,7 +5295,6 @@ textarea {
 }
 
 /*inform-list*/
-
 .inform-list {
   background: #f7f7f7;
   padding: 23px 20px;
@@ -5386,7 +5331,6 @@ textarea {
 }
 
 /*contact-service*/
-
 .service-contact {
   background: #1db4ec;
   padding: 30px;
@@ -5416,7 +5360,6 @@ textarea {
 }
 
 /*contact-info2*/
-
 .contact-info2 {
   background: #1db4ec;
   padding: 30px 20px;
@@ -5475,7 +5418,6 @@ textarea {
 /************************** 
 * Cart Page styles 
 ***************************/
-
 .cart-section {
   position: relative;
 }
@@ -5894,7 +5836,6 @@ textarea {
     Checkout Area style
 =============================================
 ***/
-
 .checkout-area {
   padding-bottom: 100px;
   padding-top: 80px;
@@ -6266,7 +6207,6 @@ textarea {
      shop style
 =============================================
 ***/
-
 .shop {
   position: relative;
 }
@@ -6467,7 +6407,6 @@ textarea {
 }
 
 /*============================= Sidebar Style One ==================*/
-
 .sidebar_styleOne .theme_title,
 .sidebar_styleTwo .theme_title {
   padding-bottom: 18px;
@@ -6796,7 +6735,6 @@ textarea {
     page_pagination style
 =============================================
 ***/
-
 . {
   text-align: center;
   padding-top: 20px;
@@ -6828,7 +6766,6 @@ textarea {
    Shop Single area  style
 =============================================
 ***/
-
 .shop-single-area {
   padding-bottom: 80px;
   padding-top: 80px;
@@ -7292,7 +7229,6 @@ textarea {
 /* ==============================
    5. Our Services styles
    ============================== */
-
 .our-services {
   padding: 70px 0 15px;
 }
@@ -7422,7 +7358,6 @@ textarea {
 ====================================================================
 
 ***/
-
 .awards {
   position: relative;
   background: #1db4ec;
@@ -7484,7 +7419,6 @@ textarea {
 ====================================================================
 
 ***/
-
 .register-section {
   position: relative;
 }
@@ -7697,7 +7631,6 @@ textarea {
     two-column style
 =============================================
 ***/
-
 .two-column {
   position: relative;
 }
@@ -7754,7 +7687,6 @@ textarea {
 }
 
 /*subscribe*/
-
 .subscribe {
   background-repeat: no-repeat;
   background-size: cover;
@@ -7796,7 +7728,6 @@ textarea {
 /* ==============================
    5. Our Services styles
    ============================== */
-
 .three-column.bg {
   background: #f7f7f7;
   padding-bottom: 14px;
@@ -7908,7 +7839,6 @@ textarea {
 }
 
 /*form*/
-
 .default-form-area.style-3 {
   border: 1px solid #eee;
   padding: 29px;
@@ -7929,7 +7859,6 @@ textarea {
 ====================================================================
 
 ***/
-
 .feature-service {
   position: relative;
 }
@@ -8048,7 +7977,6 @@ textarea {
 ====================================================================
 
 ***/
-
 .our-history {
   padding-bottom: 30px;
 }
@@ -8220,7 +8148,6 @@ textarea {
 /* ==============================
    call-out styles
    ============================== */
-
 .call-out {
   background: #1db4ec;
   padding: 5px 0 25px;
@@ -8254,7 +8181,6 @@ textarea {
 /* ==============================
    parallax styles
    ============================== */
-
 .parallax {
   position: relative;
   padding: 100px 0;
@@ -8291,7 +8217,6 @@ textarea {
 /* ==============================
    default-section styles
    ============================== */
-
 .default-section {
   position: relative;
 }
@@ -8320,9 +8245,7 @@ textarea {
 }
 
 /*contacnt page*/
-
 /*tab*/
-
 .tabs-section {
   position: relative;
   padding: 130px 0px 100px;
@@ -8521,7 +8444,6 @@ textarea {
   border-radius: 25px;
   padding: 25px;
 } */
-
 .form-header {
   margin: 0% 2% 3% 0%;
   font-weight: bold;
@@ -8837,7 +8759,6 @@ textarea {
   position: absolute;
   right: 0;
 } */
-
 .online-courses-schema {
   margin-left: 12%;
 }
@@ -8882,7 +8803,7 @@ textarea {
   margin-bottom: 2%;
 }
 
-.feature-body{
+.feature-body {
   font-size: 15px;
 }
 
@@ -8898,52 +8819,52 @@ textarea {
   padding-left: 5%;
 }
 
-.contact-form-wrapper{
+.contact-form-wrapper {
   margin-bottom: 3%;
 }
 
-.small-text{
+.small-text {
   font-size: 12px;
 }
 
-.student-heading{
+.student-heading {
   font-size: 30px;
 }
 
-.student-heading-description{
+.student-heading-description {
   font-size: 20px;
   margin-bottom: 3%;
   border-bottom: 2px solid #eee;
 }
-.students{
+
+.students {
   margin-bottom: 3%;
   margin-top: 2%;
 }
 
-.student-image img{
+.student-image img {
   border-radius: 100px;
 }
 
-.student-image > img {
-}
+.student-image>img {}
 
-.student-info{
+.student-info {
   text-align: center;
 }
 
-.student-name{
+.student-name {
   font-size: 30px;
   color: #7E7E7E;
   margin-top: 20%;
   line-height: 30px;
 }
 
-.student-description{
+.student-description {
   font-size: 20px;
   color: #77CAF2;
 }
 
-.student-wrapper{
+.student-wrapper {
   position: relative;
   padding: 3% 2%;
   background-color: #ffffff;
@@ -8954,9 +8875,10 @@ textarea {
   padding: 20px;
   border-radius: 4px;
   text-align: center;
-border:1px solid #ECECEC;
-  box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
+  border: 1px solid #ECECEC;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10), 0 15px 12px rgba(0, 0, 0, 0.02);
 }
+
 #customers-testimonials .shadow-effect p {
   font-family: inherit;
   font-size: 17px;
@@ -8967,10 +8889,12 @@ border:1px solid #ECECEC;
   max-height: 200px;
   transition: max-height 0.15s ease-out;
 }
+
 #customers-testimonials .owl-item:hover .item .shadow-effect p {
   max-height: 1000px;
   transition: max-height 0.25s ease-in;
 }
+
 .testimonial-name {
   margin: -17px auto 0;
   display: table;
@@ -8980,11 +8904,12 @@ border:1px solid #ECECEC;
   border-radius: 12px;
   text-align: center;
   color: #fff;
-  box-shadow: 0 9px 18px rgba(0,0,0,0.12), 0 5px 7px rgba(0,0,0,0.05);
+  box-shadow: 0 9px 18px rgba(0, 0, 0, 0.12), 0 5px 7px rgba(0, 0, 0, 0.05);
 }
+
 #customers-testimonials .item {
   text-align: center;
-  margin-bottom:80px;
+  margin-bottom: 80px;
   opacity: .2;
   -webkit-transform: scale3d(0.8, 0.8, 1);
   transform: scale3d(0.8, 0.8, 1);
@@ -8992,20 +8917,25 @@ border:1px solid #ECECEC;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 #customers-testimonials .owl-item.active.center .item {
   opacity: 1;
   -webkit-transform: scale3d(1.0, 1.0, 1);
   transform: scale3d(1.0, 1.0, 1);
 }
+
 .owl-carousel .owl-item img {
   transform-style: preserve-3d;
   max-width: 90px;
   margin: 0 auto 17px;
 }
-#customers-testimonials.owl-carousel.owl-theme .owl-dots .owl-dot.active span, #customers-testimonials.owl-carousel.owl-theme .owl-dots .owl-dot:hover span {
+
+#customers-testimonials.owl-carousel.owl-theme .owl-dots .owl-dot.active span,
+#customers-testimonials.owl-carousel.owl-theme .owl-dots .owl-dot:hover span {
   background: #28CB75;
   transform: translate3d(0px, -50%, 0px) scale(0.7);
 }
+
 #customers-testimonials.owl-carousel.owl-theme .owl-dots .owl-dot span {
   background: #C4C4CC;
   display: block;
@@ -9024,8 +8954,25 @@ a.anchor {
   visibility: hidden;
 }
 
-.testimonial-contact{
+.testimonial-contact {
   margin: 10px 0px;
+  max-height: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.1s linear, max-height 0.1s linear;
+}
+
+.img-linkedin {
+  position: absolute;
+  top: 85px;
+  right: 150px;
+}
+
+.owl-item .item:hover .testimonial-contact {
+  visibility: visible;
+  max-height: 500px;
+  opacity: 1;
+  transition: opacity 0.4s linear;
 }
 
 @media only screen and (max-width: 1600px) {
@@ -9046,34 +8993,40 @@ a.anchor {
   .form-header {
     text-align: center;
   }
+
   .contact-form input[type="text"] {
     padding: 2%;
     margin-bottom: 2%;
   }
+
   .contact-form textarea {
     padding: 2%;
   }
-  .menu-column{
+
+  .menu-column {
     display: none;
   }
-  .theme_menu{
+
+  .theme_menu {
     height: 100%;
   }
-  .widgets-section{
+
+  .widgets-section {
     display: none;
   }
-  .pull-right{
-    display:none;
+
+  .pull-right {
+    display: none;
   }
-  .rev_headsld{
-    display:none;
+
+  .rev_headsld {
+    display: none;
   }
 }
 
 /* .first-gallery-image {
   display: block;
 } */
-
 /* .gallery {
   margin-bottom: 10px;
   padding: 0px;
