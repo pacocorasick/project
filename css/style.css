@@ -8890,7 +8890,7 @@ textarea {
   transition: max-height 0.15s ease-out;
 }
 
-#customers-testimonials .owl-item:hover .item .shadow-effect p {
+#customers-testimonials .owl-item .item .shadow-effect:hover p {
   max-height: 1000px;
   transition: max-height 0.25s ease-in;
 }
@@ -8968,7 +8968,7 @@ a.anchor {
   right: 150px;
 }
 
-.owl-item .item:hover .testimonial-contact {
+.owl-item .item .shadow-effect:hover .testimonial-contact {
   visibility: visible;
   max-height: 500px;
   opacity: 1;
