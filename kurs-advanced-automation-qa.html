@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/jquery.js"></script> 
 
     <link rel="apple-touch-icon" sizes="180x180" href="images/fav-icon/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="images/fav-icon/favicon-32x32.png" sizes="32x32">
@@ -52,31 +53,31 @@
                 <nav class="menuzord" id="main_menu">
                     <ul class="menuzord-menu main-menu-ul">
                         <li>
-                            <a href="index.html">Начало</a>
+                            <a class="header-link" href="index.html">Начало</a>
                         </li>
 
                         <li>
-                            <a href="kursove.html">Курсове</a>
+                            <a class="header-link" href="kursove.html">Курсове</a>
                         </li>
 
                         <li>
-                            <a href="minali-kursove.html">График</a>
+                            <a class="header-link" href="minali-kursove.html">График</a>
                         </li>
 
                         <li>
-                            <a href="online-kursove.html">Онлайн</a>
+                            <a class="header-link" href="online-kursove.html">Онлайн</a>
                         </li>
 
                         <li>
-                            <a href="za-nas.html">За нас</a>
+                            <a class="header-link" href="za-nas.html">За нас</a>
                         </li>
 
                         <li>
-                            <a href="lektori.html">Лектори</a>
+                            <a class="header-link" href="lektori.html">Лектори</a>
                         </li>
 
                         <li>
-                            <a href="za-prepodavateli.html">За преподаватели</a>
+                            <a class="header-link" href="za-prepodavateli.html">За преподаватели</a>
                         </li>
 
 
@@ -695,6 +696,14 @@ GPS: 42.670192, 23.350884</li>
     <!-- pre loader  -->
     <div class="preloader"></div>
 
+    <!-- Redirect to IT course -->
+    <script>
+        if (window.location.search.indexOf('it-kurs') > -1) {
+            $('.header-link').attr('href', function (index, value) {
+                return value + '?it-kurs';
+            });
+        }
+    </script>
 
     <!-- jQuery js -->
     <script src="js/jquery.js"></script>
