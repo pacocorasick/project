@@ -100,7 +100,7 @@
 </section>
   
 <section class="rev_headsld">
-		<h1>Център за IT обучения и кариерно развитие</h1>
+		<h1>Център за обучение по софтуерно тестване</h1>
 </section>
 
 <section class="blog-section blog-navy">
@@ -710,7 +710,8 @@ GPS: 42.670192, 23.350884</li>
     <!-- Redirect to IT course -->
     <script>
         if (window.location.search.indexOf('it-kurs') > -1) {
-            $('.header-link').attr('href', function (index, value) {
+            $('.rev_headsld').html("<h1>Център за IT обучения и кариерно развитие</h1>");
+            $('.header-link, .footer-bottom a, .default-blog-news .content a').attr('href', function (index, value) {
                 return value + '?it-kurs';
             });
         }

@@ -348,7 +348,6 @@
                 <div class="container">
                     <div class="pull-left copy-text">
                         <p>© 2018 SKILLO</p>
-
                     </div>
                     <!-- /.pull-right -->
                     <div class="pull-right get-text">
@@ -394,6 +393,14 @@
         <!-- pre loader  -->
         <div class="preloader"></div>
 
+        <!-- Redirect to IT course -->
+        <script>
+            if (window.location.search.indexOf('it-kurs') > -1) {
+                $('.header-link, .footer-bottom a, .default-blog-news .content a, .footer-bottom a').attr('href', function (index, value) {
+                    return value + '?it-kurs';
+                });
+            }
+        </script>
 
         <!-- bootstrap js -->
         <script src="js/bootstrap.min.js"></script>

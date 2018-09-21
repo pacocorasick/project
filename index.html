@@ -145,7 +145,7 @@
                         <p class="slider-paragraph">
                             Ние сме специализиран център за обучения по софтуерно тестване.
                             <br />Изберете подходящия курс според вашето ниво или се запишете на нашият
-                            <a href="./event.html">безплатен семинар</a>.
+                            <a class="header-link" href="./event.html">безплатен семинар</a>.
                         </p>
                     </div>
                 </div>
@@ -985,7 +985,9 @@
         <!-- Redirect to IT course -->
         <script>
             if (window.location.search.indexOf('it-kurs') > -1) {
-                $('.header-link').attr('href', function (index, value) {
+                $('.slider-header').html("<span>Учете от най-добрите.</span><br>Започнете или развийте<br/>кариерата си в IT");
+                $('.slider-paragraph').html('Ние сме специализиран център за IT обучения и кариерно развитие.<br/>Изберете подходящия курс според вашето ниво или се запишете на нашият<a class="header-link" href="./event.html">безплатен семинар</a>.');
+                $('.header-link, .footer-bottom a, .default-blog-news .content a').attr('href', function (index, value) {
                     return value + '?it-kurs';
                 });
             }

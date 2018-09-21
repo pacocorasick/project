@@ -499,7 +499,7 @@
         <!-- Redirect to IT course -->
         <script>
             if (window.location.search.indexOf('it-kurs') > -1) {
-                $('.header-link').attr('href', function (index, value) {
+                $('.header-link, .footer-bottom a, .default-blog-news .content a').attr('href', function (index, value) {
                     return value + '?it-kurs';
                 });
             }
