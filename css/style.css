@@ -8618,7 +8618,7 @@ textarea {
 
 .slider-text-wrapper {
   position: absolute;
-  top: 25%;
+  top: 20%;
   left: 7%;
   -webkit-animation: fadein 2s;
   /* Safari, Chrome and Opera > 12.1 */
@@ -9033,11 +9033,20 @@ a.anchor {
   position: relative;
 }
 
-.courses-slider {
-  max-width: 1000px;
-  width: 80%;
-  overflow-x: hidden;
+.courses-slider-wrapper .slick-arrow {
+  z-index: 1000;
+}
 
+.courses-slider-wrapper .slick-arrow::before {
+  color: black;
+}
+
+.courses-slider {
+  width: 70%;
+}
+
+.courses-slider a {
+  display: block;
 }
 
 .owl-stage {
@@ -9050,12 +9059,14 @@ a.anchor {
 
 .course-icon img {
   width: 150px;
+  margin: 0 auto;
 }
 
 .course-text {
   color: white;
   text-align: center;
   padding-bottom: 10%;
+  text-transform: uppercase;
 }
 
 .course-qa-slider {
@@ -9078,6 +9089,14 @@ a.anchor {
   background-color: #8D4398;
 }
 
+.course-advanced-automation-qa-slider{
+  background-color: #3d8db6;
+}
+
+.course-it-recruiters-slider{
+  background-color: #b6a63d;
+}
+
 .info-row {
   margin: 5% 0% 3% 0%;
   padding: 3% 0%;
@@ -9086,6 +9105,29 @@ a.anchor {
   color: white;
   background-color: #0A3D52;
 }
+
+.benefits-wrapper:hover .benefits-text p{
+  max-height: 1000px;
+  transition: max-height 0.4s ease-in;
+}
+
+.benefits-header{
+  text-transform: uppercase;
+}
+
+.benefits-text {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 30px
+}
+
+.benefits-text p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 150px;
+  transition: max-height 0.4s ease-out;
+}
+
 
 /* .first-gallery-image {
   display: block;
