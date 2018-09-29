@@ -1130,10 +1130,34 @@
                 speed: 500,
                 cssEase: 'ease-in-out',
                 arrows: true,
+                responsive: [{
+                        breakpoint: 1250,
+                        settings: {
+                            slidesToShow: 4,
+                        }
+                    },
+                    {
+                        breakpoint: 1030,
+                        settings: {
+                            slidesToShow: 3,
+                        }
+                    },
+                    {
+                        breakpoint: 730,
+                        settings: {
+                            slidesToShow: 2,
+                        }
+                    },
+                    {
+                        breakpoint: 500,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    }
+                ]
             });
             jQuery(document).ready(function ($) {
                 "use strict";
-                //  TESTIMONIALS CAROUSEL HOOK
                 $('#customers-testimonials').owlCarousel({
                     loop: true,
                     center: true,

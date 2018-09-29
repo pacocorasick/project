@@ -9060,6 +9060,7 @@ a.anchor {
 .course-icon img {
   width: 150px;
   margin: 0 auto;
+  padding: 10%;
 }
 
 .course-text {
@@ -9067,6 +9068,34 @@ a.anchor {
   text-align: center;
   padding-bottom: 10%;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1500px) {
+  .course-text h3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .course-text h3 {
+    font-size: 18px;
+  }
+
+  .course-icon img {
+    width: 130px;
+    padding: 7%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .course-text h3 {
+    font-size: 15px;
+  }
+
+  .course-icon img {
+    width: 130px;
+    padding: 5%;
+  }
 }
 
 .course-qa-slider {
@@ -9089,11 +9118,11 @@ a.anchor {
   background-color: #8D4398;
 }
 
-.course-advanced-automation-qa-slider{
+.course-advanced-automation-qa-slider {
   background-color: #3d8db6;
 }
 
-.course-it-recruiters-slider{
+.course-it-recruiters-slider {
   background-color: #b6a63d;
 }
 
@@ -9106,12 +9135,12 @@ a.anchor {
   background-color: #0A3D52;
 }
 
-.benefits-wrapper:hover .benefits-text p{
+.benefits-wrapper:hover .benefits-text p {
   max-height: 1000px;
   transition: max-height 0.4s ease-in;
 }
 
-.benefits-header{
+.benefits-header {
   text-transform: uppercase;
 }
 
