@@ -9151,6 +9151,23 @@ a.anchor {
   transition: max-height 0.4s ease-out;
 }
 
+.lecturer-slider{
+  background-color: #0A3D52;
+  padding: 3% 0%;
+}
+
+.lecturer-slider-inner{
+  margin: 0 auto;
+}
+
+.lecturer-slider-inner img{
+  margin: 0 auto;
+}
+
+.lecturer-header {
+  margin-bottom: 3%;
+  text-transform: uppercase;
+}
 
 /* .first-gallery-image {
   display: block;
@@ -9165,8 +9182,8 @@ a.anchor {
   text-align: center;
 }
 
-@media (min-width: 1400px){
-  .social-links-two{
+@media (min-width: 1400px) {
+  .social-links-two {
     padding-left: 30%;
   }
 }

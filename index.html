@@ -315,6 +315,36 @@
             </div>
         </section>
 
+        <section class="lecturer-slider-wrapper">
+            <div class="container">
+                <div class="lecturer-header">
+                    <h3>Научете повече за нашите лектори</h3>
+                </div>
+            </div>
+            <div class="lecturer-slider">
+                <div class="lecturer-slider-inner container">
+                    <div>
+                        <img src="images/students/Elitsa Robova.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="images/students/Elitsa Robova.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="images/students/Elitsa Robova.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="images/students/Elitsa Robova.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="images/students/Elitsa Robova.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="images/students/Elitsa Robova.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="blog-section sec-padd1">
             <div class="container">
                 <div class="section-title left">
@@ -1123,6 +1153,40 @@
                 pauseOnHover: false,
             });
             $(".courses-slider").slick({
+                slidesToShow: 5,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 4000,
+                speed: 500,
+                cssEase: 'ease-in-out',
+                arrows: true,
+                responsive: [{
+                        breakpoint: 1250,
+                        settings: {
+                            slidesToShow: 4,
+                        }
+                    },
+                    {
+                        breakpoint: 1030,
+                        settings: {
+                            slidesToShow: 3,
+                        }
+                    },
+                    {
+                        breakpoint: 730,
+                        settings: {
+                            slidesToShow: 2,
+                        }
+                    },
+                    {
+                        breakpoint: 500,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    }
+                ]
+            });
+            $(".lecturer-slider-inner").slick({
                 slidesToShow: 5,
                 infinite: true,
                 autoplay: true,
