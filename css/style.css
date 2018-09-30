@@ -9161,6 +9161,16 @@ a.anchor {
   border: 2px solid #1DB4EC;
 } */
 
+.lec-first-div .social-links-two {
+  text-align: center;
+}
+
+@media (min-width: 1400px){
+  .social-links-two{
+    padding-left: 30%;
+  }
+}
+
 @media (min-width: 768px) {
 
   .lecturer div div img {
@@ -9168,9 +9178,8 @@ a.anchor {
   }
 
   .lec-first-div {
-    text-align: center;
+    text-align: right;
   }
-
 }
 
 
@@ -9186,10 +9195,7 @@ a.anchor {
 @media (min-width: 0px) {
   .lecturer {
     margin: 20px 0px;
-
   }
-
-
 
   .padd-lec span {
     margin-top: 10px;
