@@ -1657,21 +1657,15 @@ textarea {
 
 .df-team {
   background: #f9f9f9;
-  width: 49%;
   margin: 10px 0;
 }
 
 .df-img {
-  width: 100%;
   margin: 10px;
 }
 
 .df-lnks {
   margin-left: 30%;
-}
-
-.mrgn {
-  margin-left: 10px;
 }
 
 .pdg {
@@ -9166,3 +9160,110 @@ a.anchor {
   padding: 0px;
   border: 2px solid #1DB4EC;
 } */
+
+@media (min-width: 768px) {
+
+  .lecturer div div img {
+    height: 250px;
+  }
+
+  .lec-first-div {
+    text-align: center;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .lecturer div div img {
+    height: 170px;
+    width: 150px;
+  }
+}
+
+
+@media (min-width: 0px) {
+  .lecturer {
+    margin: 20px 0px;
+
+  }
+
+
+
+  .padd-lec span {
+    margin-top: 10px;
+    margin-left: 10%;
+    float: left;
+  }
+
+}
+
+
+@media (max-width: 490px) {
+  .lecturer div {
+    width: 100%;
+  }
+
+  .lecturer div div img {
+    height: 170px;
+    width: 150px;
+  }
+
+  .social-links-two {
+    padding: 0;
+  }
+
+
+  .interests {
+    padding-left: 16px;
+  }
+
+}
+
+
+@media (max-width: 992px) {
+  .interests {
+    padding-top: 30px;
+  }
+
+  .social-links-two {
+    text-align: center;
+  }
+
+  .default-otziv {
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 490px) {
+  .lecturer div div img {
+    height: auto;
+  }
+
+}
+
+@media (max-width: 560px) {
+
+  .lecturer div div img {
+    height: auto;
+  }
+}
+
+
+@media (min-width: 992px) {
+
+  .lecturer div div img {
+    height: auto;
+  }
+
+}
+
+
+@media (min-width: 1050px) {
+
+  .lecturer div div img {
+    height: 250px;
+  }
+}
